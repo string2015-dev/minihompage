@@ -3,7 +3,7 @@
 ## 목차
 
 - [Git이란?](##Git이란?)
-- [Git 기본 명령어](#Git기본명령어)
+- [Git 기본 명령어](#Git-기본-명령어)
 - [브랜치와 병합]()
 - [GitHub 사용]()
 - [추가 리소스](#추가리소스)
@@ -26,14 +26,17 @@
 
 ### 1. Git 저장소 초기화
 
-```git init```
+```
+git init
+```
 
 - 새로운 Git 저장소를 초기화합니다.
 
 ### 2. 파일 추가 및 커밋
 
-` git add <파일명>
-git commit -m "첫 번째 커밋" `
+``` git add <파일명>
+git commit -m "첫 번째 커밋" 
+```
 
 - 스테이징 영역에 파일을 추가하고, 커밋을 생성합니다.
 
@@ -45,8 +48,9 @@ GitHub는 Git을 기반으로 한 협업 플랫폼입니다. 다음 단계를 �
 2. 새로운 리포지토리 생성
 3. 원격 저장소 연결:
 
-`git remote add origin <GitHub 저장소 URL>
-git push origin main`
+```git remote add origin <GitHub 저장소 URL>
+git push origin main
+```
 
 ![Git 로고](https://git-scm.com/images/logos/downloads/Git-Logo-2Color.png)
 
